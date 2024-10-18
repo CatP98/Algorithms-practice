@@ -9,7 +9,6 @@ maxSubarraySum([4,2,1,6,2], 4); // 13 (4+2+1+6)
 maxSubarraySum([], 4); // null
  */
 
-
 function maxSubarraySum(arr, n){
     // Case the array is empty, return 0
     if( arr.length < n || arr.length === 0){
