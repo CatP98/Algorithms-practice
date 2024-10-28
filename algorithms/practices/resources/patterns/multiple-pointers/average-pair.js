@@ -15,7 +15,7 @@ averagePair([-1,0,3,4,5,6], 4.1) // false
 averagePair([],4) // false
  */
 
-
+// O(n) - Time complexity // O(1) - Space complexity
 function averagePair(arr, avg){
 let left = 0;
 let right = arr.length - 1;
