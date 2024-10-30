@@ -68,20 +68,20 @@ function isSubsequence(str1, str2) {
   }
  */
 
-//function isSubsequence(str1, str2, i){
-
-    // if(str2 === null){
-    //     return false;
-    // }
-    //
-    // if(str1[i] === str2[0]){
-    //     if (i === str1.length - 1){
-    //         return true
-    //     }
-    //     i++;
-    //     console.log(str2);
-    // }
-    // isSubsequence(str1, str2.slice(1, str2.length), i);
+// function isSubsequence(str1, str2, i){
+//
+//     if(str2 === null){
+//         return false;
+//     }
+//
+//     if(str1[i] === str2[0]){
+//         if (i === str1.length - 1){
+//             return true
+//         }
+//         i++;
+//         console.log(str2);
+//     }
+//     isSubsequence(str1, str2.slice(1, str2.length), i);
 // }
 //     function isSubsequence(str1, str2, i = 0) {
 //         // Base case: if we have matched all characters in str1
