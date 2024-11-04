@@ -6,7 +6,6 @@ and where every number thereafter is equal to the sum of the previous two number
 
 function fib(n){
     if(n <= 2) return 1;
-
     return fib (n - 1) + fib(n - 2);
 }
 
