@@ -15,7 +15,6 @@ function isPalindrome(str){
      // Base Case
     if(str.length <= 1) return true; // because an empty or single-character string is a palindrome
     // Recursive Case
-    //return helper(isPalindrome(str[0], str[str.length -1])) + isPalindrome(str.slice(1, str.length -2));
     if(str[0] === str[str.length -1]){
         return isPalindrome(str.slice(1,-1)); // slice(1,-1) removes the outer characters
     }
